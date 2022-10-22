@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #ffe7e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.relogio{
+    display: flex;
+    flex-direction:row;
+    gap: 25px;
+    border: 1px solid transparent;
+    width: 40em;
+    height: 16em;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 7px 10px 25px -1px rgba(245,113,113,0.75);
+    -webkit-box-shadow: 7px 10px 25px -1px rgba(245,113,113,0.75);
+    -moz-box-shadow: 7px 10px 25px -1px rgba(245,113,113,0.75);
+}
+
+.relogio div{
+    font-size: 2em;
+    border: 1px solid transparent;
+    background-color:#ffe7e6 ;
+    border-radius: 1em;
+    /* box-shadow: 1px 1px 15px 1px rgba(119, 119, 119, 0.85); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 5em;
+    height: 4em;
+}
+
+.relogio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.relogio .tempo {
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:
+682px) {
+    .relogio{
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    width: 20em;
+    }
+}
+
